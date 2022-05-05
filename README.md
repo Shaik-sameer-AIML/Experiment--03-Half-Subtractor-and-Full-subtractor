@@ -62,6 +62,7 @@ assign Diff = ((A^B)^C);
 not(p,A);
 assign Borrow = ((p&B)|(p&C)|(B&C));
 endmodule
+~~~
 
 ## Output:
 ### Half Subtractor:
