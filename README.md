@@ -24,15 +24,14 @@ A full subtractor is a combinational circuit that performs subtraction involving
 
 
 Diff = A ⊕ B ⊕ Bin B = A'Bin + A'B + BBin
-
-## Procedure
-1.Use module projname(input,output) to start the Verilog programmming.
+~~~
+## Procedure1.Use module projname(input,output) to start the Verilog programmming.
 2.Assign inputs and outputs using the word input and output respectively.
 3.Use defined keywords like wire,assign and required logic gates to represent the boolean expression.
 4.Use each output to represnt onre for differnce and the other for borrow.
 5.End the verilog program using keyword endmodule.
 
-
+~~~
 
 ## Program:
 /*
