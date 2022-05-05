@@ -26,8 +26,14 @@ A full subtractor is a combinational circuit that performs subtraction involving
 Diff = A ⊕ B ⊕ Bin B = A'Bin + A'B + BBin
 
 ## Procedure
+~~~
+1.Use module projname(input,output) to start the Verilog programmming. 
+2.Assign inputs and outputs using the word input and output respectively.
+3.Use defined keywords like wire,assign and required logic gates to represent the boolean expression. 
+4.Use each output to represnt onre for differnce and the other for borrow.
+5.End the verilog program using keyword endmodule.
 
-
+~~~
 
 Write the detailed procedure here 
 
@@ -62,15 +68,26 @@ assign Borrow = ((p&B)|(p&C)|(B&C));
 endmodule
 ```
 ## Output:
+## Half Subtractor:
+### Logic Symbol
+![1 1](https://user-images.githubusercontent.com/93427186/166966767-884a7038-a096-48c8-818e-4985cae017bf.png)
+### Truthtable
+![1 2](https://user-images.githubusercontent.com/93427186/166966894-4dc027d6-def6-46c3-af8d-4bfb503527cb.png)
+### RTL realization
+![Screenshot 2022-05-05 203043](https://user-images.githubusercontent.com/93427186/166967148-52b45a5c-2f98-4c94-b70d-381b3d295d39.png)
+### Timing diagram
+![halfsubtract  timming](https://user-images.githubusercontent.com/93427186/166967209-ed9877d4-e99e-4145-a7d9-9a8464707e1a.png)
 
-## Truthtable
 
-
-
-##  RTL realization
-
-
-## Timing diagram 
+## Full Subtractor:
+### Logic Symbol
+![2 1](https://user-images.githubusercontent.com/93427186/166967587-6f62a61d-a6b7-4301-a567-e77323fa22c9.png)
+### Truthtable
+![2 2](https://user-images.githubusercontent.com/93427186/166967659-7570f38f-5f4e-465c-819f-0e1887f87d02.png)
+### RTL realization
+![2 3](https://user-images.githubusercontent.com/93427186/166967787-4ad59c4a-70a6-4336-8689-5491f1e50905.png)
+### Timing diagram 
+![2 4](https://user-images.githubusercontent.com/93427186/166967862-8e41365d-d3b1-47fe-b128-0bcfcec3b55b.png)
 
 ## Result:
 Thus the half subtractor and full subtractor circuits are designed and the truth tables is verified using quartus software.
