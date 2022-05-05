@@ -76,7 +76,7 @@ endmodule
 ![halfsubtract  timming](https://user-images.githubusercontent.com/93427201/166954179-b3186d64-2b0c-41e5-8cbe-708fd534ffef.png)
 
 
-## Full Suubtractor:
+## Full Subtractor:
 ### Logic Symbol
 ![2 1](https://user-images.githubusercontent.com/93427201/166955503-6b629b24-cfeb-4ac1-8a3f-e149950f724f.png)
 
