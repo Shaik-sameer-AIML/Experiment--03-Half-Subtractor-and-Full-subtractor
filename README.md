@@ -38,6 +38,7 @@ Program to design a half subtractor and full subtractor circuit and verify its t
 Developed by: shaik sameer
 RegisterNumber: 212221240051 
 */
+```
 HALF SUBTRACTOR
 
 module HalfSubtractor(A,B,Diff,Borrow);
@@ -59,7 +60,7 @@ assign Diff = ((A^B)^C);
 not(p,A);
 assign Borrow = ((p&B)|(p&C)|(B&C));
 endmodule
-
+```
 ## Output:
 
 ## Truthtable
